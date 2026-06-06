@@ -19,6 +19,9 @@ dependencies = [
     "sentry-sdk[fastapi]>=2.0.0,<3.0.0",
     "pyjwt<3.0.0,>=2.8.0",
     "pwdlib[argon2,bcrypt]>=0.3.0",
+    "kokoro>=0.9.4",
+    "soundfile>=0.13.1",
+    "ollama>=0.6.2",
 ]
 
 [dependency-groups]
