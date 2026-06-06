@@ -9,7 +9,7 @@ COPY frontend/package.json /app/frontend/
 
 WORKDIR /app/frontend
 
-RUN bun install
+RUN NODE_TLS_REJECT_UNAUTHORIZED=0 bun install
 
 COPY ./frontend /app/frontend
 ARG VITE_API_URL
